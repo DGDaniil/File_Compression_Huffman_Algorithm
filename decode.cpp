@@ -25,6 +25,10 @@ void replaceExt(string& s, const string& newExt){
     s = pre+s;
 }
 
+
+// Начало главного кода
+
+
 int main(int argc, char** argv){
     FILE *fp,*outfile;
     char buffer;
@@ -95,6 +99,10 @@ int main(int argc, char** argv){
     cout<<"\nEverything fine..\nOutput file "<<argv[2]<<" written successfully.\n"; 
     return 0;
 }
+
+
+// Конец главного кода
+
 
 char *decodeBuffer(char b){
     int i=0,j=0,t;

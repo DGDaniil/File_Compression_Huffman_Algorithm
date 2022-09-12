@@ -55,6 +55,10 @@ void replaceExt(string& s, const string& newExt){
     }
 }
 
+
+// Начало глвного кода
+
+
 int main(int argc, char** argv){
     FILE *fp, *fp1;
     char ch;
@@ -122,6 +126,9 @@ int main(int argc, char** argv){
     cout<<"\n***Done***\n";
     return 0;
 }
+
+
+// Конец главного кода
 
 
 void writeHeader(FILE *f){
